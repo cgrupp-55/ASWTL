@@ -16,3 +16,12 @@ h3.bigger {
 .typewriter {
   font-family: "Courier New", Courier, monospace;
 }
+p.italics {
+  font-style: italic;
+}
+h4.italics {
+  font-style: italic;
+}
+.italics {
+  font-style:italic;
+}
