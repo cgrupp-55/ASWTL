@@ -25,3 +25,11 @@ h4.italics {
 .italics {
   font-style:italic;
 }
+.emphasized {
+  font-size: 1.5em;
+  font-style:italic;
+  font-weight: 900;
+}
+.standoutColor{
+  color:#cc0000;
+}
