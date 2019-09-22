@@ -2,6 +2,7 @@ P {
 font-family: Georgia, "Times New Roman", Times, serif;
 font-size: 1.23m;
 text-align: left;
+text-indent:1em; /*intents first-line in a paragragh*/
 }
 h1 {
   font-family:"trebuchet MS", Helvetica, sans-serif;
@@ -46,6 +47,11 @@ p.italics {
 }
 .dateStyle {
   text-align: right;
-  color:#00FF00;
-  font-size:1.5em;
+  color: #00FF00;
+  font-size: 1.5em;
+}
+/*Add additional styles to text that uses the blockquote tag*/
+blockquote {
+  font-size: 1.2em;
+  color: #708090;
 }
