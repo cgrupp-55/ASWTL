@@ -30,3 +30,6 @@ h4.italics {
   font-style:italic;
   font-weight: 900;
 }
+.standoutColor{
+  color:#cc0000;
+}
