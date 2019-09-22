@@ -1,0 +1,65 @@
+[33mcommit 6f6127a1611168fd9b57a98e1c78ce6380cf3b68[m[33m ([m[1;36mHEAD -> [m[1;32mchapter_9[m[33m)[m
+Author: GaryRupp <gary@commandresults.com>
+Date:   Fri Sep 20 22:06:23 2019 -0600
+
+    Add Font Weight 900 to BOLD important class
+
+[33mcommit 99240c6d51170d398ac87663f3da8184a9fd21d6[m[33m ([m[1;32mchapter_8[m[33m)[m
+Author: GaryRupp <gary@commandresults.com>
+Date:   Fri Sep 20 21:59:36 2019 -0600
+
+    Added classes not tied to an element
+
+[33mcommit d2700a08f35410f20435906fd129668f711d20ef[m[33m ([m[1;32mchapter_7[m[33m)[m
+Author: GaryRupp <gary@commandresults.com>
+Date:   Fri Sep 20 21:44:24 2019 -0600
+
+    add css classes to css file and index html file
+
+[33mcommit 688ac601e20ac0504f3bdbc4ac73b0025736a057[m[33m ([m[1;32mchapter_6[m[33m)[m
+Author: GaryRupp <gary@commandresults.com>
+Date:   Fri Sep 20 18:18:41 2019 -0600
+
+    added font size changes to paragraph and header 1 styles
+
+[33mcommit 472e4b78e674933bbcd6a6ae2523309b37497055[m[33m ([m[1;32mchapter_5[m[33m)[m
+Author: GaryRupp <gary@commandresults.com>
+Date:   Fri Sep 20 18:04:22 2019 -0600
+
+    add stylesheet link to index file
+
+[33mcommit f9a9d4e5c375beba7e36ca2ac0cfe3c66f5341ba[m[33m ([m[1;32mchapter_4[m[33m)[m
+Author: GaryRupp <gary@commandresults.com>
+Date:   Fri Sep 20 17:23:52 2019 -0600
+
+    added css style sheet
+
+[33mcommit 172e94f3366ed976bcc8e2de3c6b9f4610a6e40a[m[33m ([m[1;32mchapter_3[m[33m)[m
+Author: GaryRupp <gary@commandresults.com>
+Date:   Fri Sep 20 17:11:15 2019 -0600
+
+    added header styles 1 and 2 with break text feature
+
+[33mcommit 25819ce4865ee274acbd3a6be34f3c75c2e33dd2[m
+Author: GaryRupp <gary@commandresults.com>
+Date:   Fri Sep 20 17:08:34 2019 -0600
+
+    added headers styles 1 and 2
+
+[33mcommit dc275ba836cf668c453fa6f57df9d648ea47ee3e[m[33m ([m[1;32mchapter_2[m[33m)[m
+Author: GaryRupp <gary@commandresults.com>
+Date:   Fri Sep 20 17:02:50 2019 -0600
+
+    added text within paragraph tags
+
+[33mcommit 9ee034aa7a604b13de1fec516ff8dc84f3c9b163[m[33m ([m[1;32mchapter_1[m[33m)[m
+Author: GaryRupp <gary@commandresults.com>
+Date:   Fri Sep 20 16:40:21 2019 -0600
+
+    index file with comment line
+
+[33mcommit 629ac605d82e7704974389805ded1241bec206f4[m[33m ([m[1;32mmaster[m[33m)[m
+Author: GaryRupp <gary@commandresults.com>
+Date:   Fri Sep 20 16:11:38 2019 -0600
+
+    Commit message
