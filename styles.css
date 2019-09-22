@@ -1,0 +1,57 @@
+P {
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 1.23m;
+text-align: left;
+text-indent:1em; /*intents first-line in a paragragh*/
+}
+h1 {
+  font-family:"trebuchet MS", Helvetica, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color:#C71585;
+}
+h2 {
+  letter-spacing:1em;
+  line-height:2em;
+}
+p.important {
+  font-size:1.5em;
+  font-weight: 900;word-spacing:1em;
+}
+p.center {
+  text-align: center;
+}
+h3.bigger {
+  font-size: 2.5em;
+  letter-spacing:-.05em;
+}
+h4.italics {
+  font-style: italic;
+}
+.typewriter {
+  font-family: "Courier New", Courier, monospace;
+}
+p.italics {
+  font-style: italic;
+}
+.italics {
+  font-style:italic;
+}
+.emphasized {
+  font-size: 1.5em;
+  font-style:italic;
+  font-weight: 900;
+}
+.standoutColor{
+  color:#cc0000;
+}
+.dateStyle {
+  text-align: right;
+  color: #00FF00;
+  font-size: 1.5em;
+}
+/*Add additional styles to text that uses the blockquote tag*/
+blockquote {
+  font-size: 1.2em;
+  color: #708090;
+}
