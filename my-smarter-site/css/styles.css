@@ -56,6 +56,12 @@ p.important {
   font-size:1.5em;
   font-weight: 900;word-spacing:1em;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 p.center {
   text-align: center;
 }
@@ -75,7 +81,7 @@ p.italics {
   text-align: left;
 }
 .standoutColor{
-  color:#cc0000;
+  color:#483D8B;
 }
 .dateStyle {
   text-align: right;
