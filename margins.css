@@ -1,0 +1,39 @@
+/*Add additional styles to text that uses the blockquote tag*/
+blockquote {
+  font-size: 1.2em;
+  color: #708090;
+}
+.MarginOffsets {
+  margin: 2em 2em 2em 2em;
+}
+.leftOffset {
+  margin-left: 2em;
+}
+.rightOffset {
+  margin-right: 2em;
+}
+.topOffset {
+  margin-top: 2em;
+}
+.bottomOffset {
+  margin-bottom: 2em;
+}
+.topBottom {
+  margin: 2em 0em 2em 0em;
+}
+.leftRight {
+  margin: 0em 1em 0em 3em;
+}
+.topRightBottomLeft {
+  margin: 0em 1em 0em 1em;
+}
+margins::after
+margins::before
+margins::first-letter
+margins::first-line
+margins::selection
+margins:active
+margins:checked
+margins:default
+margins:disabled
+margins:empty
