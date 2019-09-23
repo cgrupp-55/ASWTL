@@ -1,0 +1,38 @@
+/*Adding border styles. Format is border: xpx borderStyle color*/
+/* border styles are dashed, dotted, solid, double, groove, ridge, inset, outset*/
+/* border options are top, bottom, left, right, color, width, style, spacing*/
+.borderDotted {
+  border: 1px dotted navy;
+}
+.borderDashed {
+  border: 1px dashed navy;
+}
+.borderSolid {
+  border: 1px solid navy;
+}
+.borderDouble {
+  border: 1px double navy;
+}
+.borderGroove {
+  border: 1px groove navy;
+}
+.borderRidge {
+  border: 1px ridge navy;
+}
+.borderInset {
+  border: 1px inset navy;
+}
+.borderOutset {
+  border: 1px outset navy;
+}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
