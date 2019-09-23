@@ -1,0 +1,177 @@
+body {
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: green;
+  font-size: 1.2em;
+  text-align: left;
+  /*margin: 0em 1em 0em 1em; sets top right bottom left margins*/
+}
+blockquote {
+  display: block;
+  */Note:color: purple;  If set, this color wil overwrite the color specified in the Body element.*/
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+h1#mission-statement {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  color: darkblue;
+}
+h2#product-features {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: blue;
+}
+#specialID {
+  font-size: 1.5em;
+  font-style: italic;
+}
+div#header {}
+div#navBar {}
+div#main  {
+  font-size: 1.1em;
+  color: DarkCyan;
+  margin: .1em .2 em .2 em .2em
+}
+div#footer {}
+h1, h3, h5 {
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  }
+  h1, h5 {
+    color:#228B22;
+  }
+  h4 {
+    text-align: center;
+    color:#C71585;
+  }
+  h3 {
+    color:#B22222;
+  }
+p.important {
+  font-size:1.5em;
+  font-weight: 900;word-spacing:1em;
+}
+p.center {
+  text-align: center;
+}
+.typewriter {
+  font-family: "Courier New", Courier, monospace;
+}
+p.italics {
+  font-style: italic;
+}
+.italics {
+  font-style:italic;
+}
+.emphasized {
+  font-size: 1.5em;
+  font-style:italic;
+  font-weight: 600;
+  text-align: left;
+}
+.standoutColor{
+  color:#cc0000;
+}
+.dateStyle {
+  text-align: right;
+  color: #00FF00;
+  font-size: 1.5em;
+}
+/*Add additional styles to text that uses the blockquote tag*/
+.offset {
+  margin: 2em 2em 2em 2em;
+}
+.leftOffset {
+  margin-left: 2em;
+}
+.rightOffset {
+  margin-right: 2em;
+}
+.topOffset {
+  margin-top: 2em;
+}
+.bottomOffset {
+  margin-bottom: 2em;
+}
+.topBottom {
+  margin: 2em 0em 2em 0em;
+}
+.leftRight {
+  margin: 0em 1em 0em 3em;
+}
+.topRightBottomLeft {
+  margin: 0em 1em 0em 1em;
+}
+/*Adding border styles. Format is border: xpx borderStyle color*/
+/* border styles are dashed, dotted, solid, double, groove, ridge, inset, outset*/
+/* border options are top, bottom, left, right, color, width, style, spacing*/
+.borderDotted {
+  border-style: dotted;
+  border-width: 5px;
+  border-color: navy;
+}
+.borderDashed {
+  border-style: dashed;
+  border-width: 5px;
+  border-color: red;
+}
+.borderSolid {
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+}
+.borderDouble {
+  border-style: double;
+  border-width: 5px;
+  border-color: PaleVioletRed;
+}
+.borderGroove {
+  border-style: groove;
+  border-width: 5px;
+  border-color: slategrey;
+}
+.borderRidge {
+  border-style: ridge;
+  border-width: 5px;
+  border-color: teal;
+}
+.borderInset {
+  border-style: inset;
+  border-width: 5px;
+  border-color: orangered;
+}
+.borderOutset {
+  border-style: double;
+  border-width: 5px;
+  border-color: lime;
+}
+.borderHidden {
+  border-style: hidden;
+  border-width: 5px;
+  border-color: MediumSlateBlue;
+}
+.boderMix {
+  border-style: dotted solid double solid; /* top, right, bottom, left*/
+  border-width: 10px 10px 10px 10px; /* top, right, bottom, left*/
+  border-color: DarkViolet;
+}
+.padding {
+  padding: 1em 1em 1em 1em;
+}
+.topPadding {
+  padding-top: .1em;
+}
+.rightPadding {
+  padding-right: .2em;
+}
+.bottonPadding {
+  padding-bottom: .#em;
+}
+.leftPadding {
+  padding-left: .4em;
+}
