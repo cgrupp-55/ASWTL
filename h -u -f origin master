@@ -1,0 +1,48 @@
+* [33m0f45543[m[33m ([m[1;36mHEAD -> [m[1;32mchapter_05[m[33m)[m Chapter 5 - added html file linking css style_5.css file
+[31m|[m * [33m1ab87e3[m[33m ([m[1;32mchapter_04[m[33m)[m Chapter 4 added html and css files to specify font-families.
+[31m|[m[31m/[m  
+[31m|[m * [33m1f49641[m[33m ([m[1;32mchapter_3[m[33m)[m added chapter 3 header styles 1 and 2 with break text feature
+[31m|[m [33m|[m * [33m55f5dde[m[33m ([m[1;32mchapter_03[m[33m)[m Adding css and html files to create headings
+[31m|[m [33m|[m[31m/[m  
+[31m|[m[31m/[m[33m|[m   
+[31m|[m [33m|[m * [33m5337f90[m[33m ([m[1;32mchapter_02[m[33m)[m Added chapter 2 content on creating paragraphs
+[31m|[m [33m|[m[31m/[m  
+[31m|[m[31m/[m[33m|[m   
+[31m|[m [33m|[m * [33m0869e9a[m[33m ([m[1;32mchapter_01[m[33m)[m made a change
+[31m|[m [33m|[m * [33mf742ec5[m[33m ([m[1;32mchapter_29[m[33m, [m[1;32mchapter_28[m[33m)[m Used floating properties within an image (img) class to wrap text.
+[31m|[m [33m|[m * [33mc113b1f[m[33m ([m[1;32mchapter_27[m[33m)[m Added css file class and properties with updates to image tags in the html file to center and apd the images.
+[31m|[m [33m|[m * [33mb6636a2[m[33m ([m[1;32mchapter_26[m[33m)[m Added information on how to position an image.
+[31m|[m [33m|[m * [33m758ca1e[m[33m ([m[1;32mchapter_25[m[33m)[m Added more information to the image (img src) tags
+[31m|[m [33m|[m * [33ma35d8b4[m[33m ([m[1;32mchapter_24[m[33m)[m add Block_vs_Inline.html file with additioanl images and modified styles.css file.
+[31m|[m [33m|[m * [33m6fc0a5c[m[33m ([m[1;32mchapter_23[m[33m)[m add html file for images, graphic images, and updated css files
+[31m|[m [33m|[m * [33m664920f[m[33m ([m[1;32mchapter_22[m[33m)[m adding chapter 22 DIV example
+[31m|[m [33m|[m * [33m491c360[m[33m ([m[1;32mchapter_21[m[33m)[m adding chapter 21 - ID concepts (e.g. single instance class)
+[31m|[m [33m|[m * [33m817abd4[m[33m ([m[1;32mchapter_20[m[33m)[m added chapter 20 grouping concepts
+[31m|[m [33m|[m * [33m57b6bbf[m[33m ([m[1;32mchapter_19[m[33m)[m Added h2 test to explain overwriting values inherited in Body element.
+[31m|[m [33m|[m * [33m8dbd9d4[m chapter 19 - imnheritance html file and css style updates
+[31m|[m [33m|[m * [33mf11a305[m[33m ([m[1;32mchapter_18[m[33m)[m commited changes to files with padding elements and css updates.
+[31m|[m [33m|[m * [33m3730078[m[33m ([m[1;32mchapter_17[m[33m)[m added borders html file with css updates
+[31m|[m [33m|[m * [33me4b2ec8[m[33m ([m[1;32mchapter_16[m[33m)[m Adding margin and offset tags in margin sample file
+[31m|[m [33m|[m * [33m0bd1846[m[33m ([m[1;32mchapter_15[m[33m)[m added template and margin example html files and css updates.
+[31m|[m [33m|[m * [33m8cc25b5[m added block-indent and blockquote tags
+[31m|[m [33m|[m * [33m829bd14[m[33m ([m[1;32mchapter_14[m[33m)[m added Slow Loris html fime with css alignment features
+[31m|[m [33m|[m * [33mfa180ee[m[33m ([m[1;32mchapter_13[m[33m)[m added css class to change letter-spacing, word-spacing, andf line-height.
+[31m|[m [33m|[m * [33me7e37f0[m[33m ([m[1;32mchapter_12[m[33m)[m Added color in index file and modified css file to implement a class to create color
+[31m|[m [33m|[m * [33mfaa4bf0[m Added Color as a class not tied to an element.
+[31m|[m [33m|[m [36m|[m * [33m31d0640[m[33m ([m[1;32mchapter_11[m[33m)[m Adding colors as a class not tied to an element.
+[31m|[m [33m|[m [36m|[m * [33m82b967f[m used span tag with a class not tied to an element to change section of text.
+[31m|[m [33m|[m [36m|[m[36m/[m  
+[31m|[m [33m|[m * [33mc6126fc[m[33m ([m[1;32mchapter_10[m[33m)[m using classes and tags to bold and italicise lines of text
+[31m|[m [33m|[m * [33m6f6127a[m[33m ([m[1;32mchapter_9[m[33m)[m Add Font Weight 900 to BOLD important class
+[31m|[m [33m|[m * [33m99240c6[m[33m ([m[1;32mchapter_8[m[33m)[m Added classes not tied to an element
+[31m|[m [33m|[m * [33md2700a0[m[33m ([m[1;32mchapter_7[m[33m)[m add css classes to css file and index html file
+[31m|[m [33m|[m * [33m688ac60[m[33m ([m[1;32mchapter_6[m[33m)[m added font size changes to paragraph and header 1 styles
+[31m|[m [33m|[m * [33m472e4b7[m[33m ([m[1;32mchapter_5[m[33m)[m add stylesheet link to index file
+[31m|[m [33m|[m * [33mf9a9d4e[m[33m ([m[1;32mchapter_4[m[33m)[m added css style sheet
+[31m|[m [33m|[m * [33m172e94f[m added header styles 1 and 2 with break text feature
+[31m|[m [33m|[m[33m/[m  
+[31m|[m * [33m25819ce[m added headers styles 1 and 2
+[31m|[m * [33mdc275ba[m[33m ([m[1;32mchapter_2[m[33m)[m added text within paragraph tags
+[31m|[m * [33m9ee034a[m[33m ([m[1;32mchapter_1[m[33m)[m index file with comment line
+[31m|[m[31m/[m  
+* [33m629ac60[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m Commit message

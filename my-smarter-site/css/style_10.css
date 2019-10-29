@@ -1,0 +1,56 @@
+  /*Adding classes to change font styles, colors and weights in header and paragraphs.*/
+  h1, h2, h3, h4, h5, h6 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: blue;
+    }
+  /*Here I am inserting classes tied to an element*/
+  h1.biggerRed {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: red;
+  }
+  h2.biggerBlue {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.5em;
+    color: blue;
+  }
+  h2.slanted2 {
+    font-style: italic;
+  }
+  h3.bigger {
+    font-size: 2em;
+  }
+  h3.slanted3  {
+    font-style: italic; /*Italicizes text assigned to this h3 assigned class.*/
+  }
+  h3.bold {
+    font-weight: 900;
+  }
+  p.slantedP  {
+    font-style: italic; /*Italicizes text assigned to this paragraph assigned class.*/
+  }
+  .slanted  {
+    font-style:italic; /*Italicizes text assigned to this non-element specific class.*/
+  }
+  p.important {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    font:weight:900
+    color: blue;
+  }
+.typewriter {
+  font-family: "Courier New", Courier, monospace;
+}
+.fwLighter {
+  font-weight: lighter;
+}
+.fwNormal {
+  font-weight: normal;
+}
+.fwBold {
+  Font-weight: bold;
+}
+.fwBolder {
+  Font-weight: bolder;
+}

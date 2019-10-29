@@ -1,0 +1,49 @@
+  /*Adding classes to change font styles, colors and weights in header and paragraphs.*/
+  h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 1em 1em 1em;
+    color: red;
+    }
+    h2, h3, h4, h5, h6 {
+      font-family:Arial, Helvetica, sans-serif;
+      margin: 0 1em 0 1.5em;
+      color: blue;
+      }
+  /*Here I am displaying text-align properties.*/
+  .dateStyle {
+    text-align: right;
+    color: #00FF00;
+    font-size: 1.5em;
+  }
+p {
+  text-indent: 1em;
+  margin-left: 2em;
+}
+blockquote {
+  font-size: 1.4em;
+  color: darkslategrey;
+}
+p.offset {
+  margin: 0 2em 0 2em; /*set up individual values for top right bottom left margins*/
+}
+p.eMargin {
+  margin: 2em; /*sets up equal margin values on all 4 sides*/
+}
+p.bMargin {
+  margin: 0 0 2em 0: /*Sets up only the bottom margin*/
+}
+p.tMargin {
+  margin: 2em 0 0 0; /*Sets up only the top margin*/
+}
+.topMargin {
+  margin-top: 2em;/*Sets up only the top margin*/
+}
+.botMargin {
+  margin-bottom: 2em;/*Sets up only the bottom margin*/
+}
+.lMargin {
+  margin-left: 2em;/*Sets up only the left margin*/
+}
+.rMargin {
+  margin-right: 2em; /*Sets up only the top margin*/
+}

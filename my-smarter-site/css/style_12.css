@@ -1,0 +1,11 @@
+  /*Adding classes to change font styles, colors and weights in header and paragraphs.*/
+  h1, h2, h3, h4, h5, h6 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: blue;
+    }
+  /*Here I am inserting classes called "emphasized" that i'll use within a span tag.*/
+  .emphasized {
+    font-style: italic;
+    font:weight:bolder;
+    color: #F08080;
+  }
