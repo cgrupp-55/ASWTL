@@ -1,7 +1,10 @@
 P {
 font-family: Georgia, "Times New Roman", Times, serif;
-font-size: 1.23m;
+font-size: 1.2em;
 text-align: left;
+text-indent:1em; /*intents first-line in a paragragh*/
+margin: 0em 1em 0em 1em; /*sets top right bottom left margins*/
+
 }
 h1 {
   font-family:"trebuchet MS", Helvetica, sans-serif;
@@ -10,8 +13,10 @@ h1 {
   color:#C71585;
 }
 h2 {
-  letter-spacing:1em;
+  margin: 0em 0em 0em 1.5em; /*intents h2 parqgragh to the left*/
+  letter-spacing:.1em;
   line-height:2em;
+  color: #7B68EE;
 }
 p.important {
   font-size:1.5em;
@@ -46,6 +51,36 @@ p.italics {
 }
 .dateStyle {
   text-align: right;
-  color:#00FF00;
-  font-size:1.5em;
+  color: #00FF00;
+  font-size: 1.5em;
+}
+/*Add additional styles to text that uses the blockquote tag*/
+blockquote {
+  font-size: 1.2em;
+  color: #708090;
+}
+.offset {
+  margin: 2em 2em 2em 2em;
+}
+.leftOffset {
+  margin-left: 2em;
+}
+.rightOffset {
+  margin-right: 2em;
+}
+.topOffset {
+  margin-top: 2em;
+}
+.bottomOffset {
+  margin-bottom: 2em;
+}
+.topBottom {
+  margin: 2em 0em 2em 0em;
+}
+.leftRight {
+  margin: 0em 1em 0em 3em;
+}
+}
+.topRightBottomLeft {
+  margin: 0em 1em 0em 1em;
 }
