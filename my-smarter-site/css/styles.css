@@ -9,6 +9,9 @@ h1 {
 p.important {
   font-size:1.5em
 }
-h3.biggrer {
+h3.bigger {
   font-size: 2.5em
+}
+.typewriter {
+  font-family: "Courier New", Courier, monospace;
 }
