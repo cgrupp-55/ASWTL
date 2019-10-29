@@ -111,6 +111,18 @@ p.important {
   width: 600px; /*Setting the width of a block-level element will prevent it from stretching out to the edges of its container to the left and right.*/
   margin: 0 auto; /*set the left and right margins to auto to horizontally center that element within its container.*/
 }
+/*Working with images*/
+img.wrapLeft {
+  float: left; /*Any text that follws this image with this class will wrap around the image on the right.*/
+  margin: 0 .75em .5em 0;
+}
+img.wrapRight {
+  float: right; /*Any text that follws this image with this class will wrap around the image on the left.*/
+  margin: 0 .75em .5em 0;
+}
+p.noWrap {
+  clear: both; /*Don't wrap anything else from here forewaerd.*/
+}
 img.centerImage {
   display:block;
   margin-left: auto;
