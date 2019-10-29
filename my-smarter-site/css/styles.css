@@ -6,15 +6,15 @@ body {
   color: green;
   font-size: 1.2em;
   text-align: left;
-  margin: 0em 1em 0em 1em; /*sets top right bottom left margins*/
+  /*margin: 0em 1em 0em 1em; sets top right bottom left margins*/
 }
 blockquote {
   display: block;
-  color: purple; */Note: If set, this color wil overwrite the color specified in the Body element.*/
+  */Note:color: purple;  If set, this color wil overwrite the color specified in the Body element.*/
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 h1#mission-statement {
   font-family: "Times New Roman", Times, serif;
@@ -30,6 +30,14 @@ h2#product-features {
   font-size: 1.5em;
   font-style: italic;
 }
+div#header {}
+div#navBar {}
+div#main  {
+  font-size: 1.1em;
+  color: DarkCyan;
+  margin: .1em .2 em .2 em .2em
+}
+div#footer {}
 h1, h3, h5 {
   font-family:Arial, Helvetica, sans-serif;
   text-align: center;
