@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Image</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <!-- place sample text here. -->
+<blockquote>
+  <h1 class="standoutColor">Working with Image Files</h1>
+    <p>Images that cen be read by a browser are of three commont types: jpg, gif, and png.</p>
+    <p>The jpg file fiormat is bestfor photographs and illustrations with subtle colors.</p>
+    <p>The gif format is bvest for line drawings, illustrations with just a frew colors, and images of text.
+    Giff files also provide transparency so that background colors show through your images. Gifs cal also have animations. In fact, gifs are rarely used unless animation is required.</p>
+    <p> The png file format has the same general features as gif, but without the animation capabilities. It is preferred over gif becuase it delivers a higher qality image and a smaller file size, and therefore loads faster.</p>
+    <p>An HTML file contains the code instructing where to place an image file on your web page, but <b>the images are not included in the html file.</b> Image files are stored separatly, located anywhere on the web, and pulled by the code in the html file via their URL. However, as best practice, image files are typically saved in a subfolder under the site's main folder, and call the folder <i>images</i>.</p>
+    <p>The HTML code to call an image from a separate folder is:</P>
+    <img src="images/imageTag.jpg" alt="this is an image of img src tag" class="center">
+    <p>...where "<strong>img src</strong>" stands for "<i>image Source</i>"</p>
+    <p>This example is pulling an image from a URL location</P>
+      <img src="http://www.asmarterwaytolearn.com/surprise.jpg" alt="this is an image of a surprised cat" class="center">
+      <img src="images/imagefromExternalSource.jpg" alt="this is an image of external URL img src tag" class="center">
+  </blockquote>
+
+  </body>
+</html>
