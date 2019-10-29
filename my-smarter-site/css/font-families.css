@@ -1,0 +1,67 @@
+/*Set useful Serif font-families*/
+.serifGeorgia {
+  font-family: Georgia, serif;
+}
+.serifPalatino {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.SerifTimes {
+  font-family: "Times New Roman", Times, serif;
+}
+/*Set useful Sans-Serif font-families*/
+.Sans-SerifArial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Sans-Serif {
+  font-family: ;
+}
+.Sans-SerifArialBlack {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.Sans-SerifComic {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.Sans-SerifImpact {
+  font-family: Impact, Charcoal, sans-serif;
+}
+.Sans-SerifLucida {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.Sans-SerifTahoma {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.Sans-SerifTrebuchet {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.Sans-SerifVerdana {
+  font-family: Verdana, Geneva, sans-serif;
+}
+/*Set useful Monospace font-families*/
+.MonospaceCourier {
+  font-family: "Courier New", Courier, monospace;
+}
+.MonospaceLucida {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.typewriter {
+  font-family: "Courier New", Courier, monospace;
+}
+/*Set useful Google Script font-families*/
+.PetitFormalScript {
+  font-family: 'Petit Formal Script', 'Brush Script MT', cursive;
+}
+.PinyonScript {
+  font-family: 'Pinyon Script', 'Brush Script MT', cursive;
+}
+.RougeScript {
+   font-family: 'Rouge Script', 'Brush Script MT', cursive;
+}
+.SacramentoScript {
+  font-family: 'Sacramento', 'Brush Script MT', cursive;
+}
+.Sevillana {
+  font-family: 'Sevillana', 'Brush Script MT', cursive;
+}
+.theGirlNextDoor {
+  font-family: 'The Girl Next Door', 'Brush Script MT', cursive; 
+}

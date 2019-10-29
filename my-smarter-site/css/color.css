@@ -1,0 +1,52 @@
+/*Set useful color styles*/
+.black {
+  color: #000000;
+}
+.grey {
+  color: #808080;
+}
+.silver {
+  color: #c0c0c0;
+}
+.white {
+  color: #ffffff;
+}
+.maroon {
+  color: #800000;
+}
+.red {
+  color: #ff0000;
+}
+.purple {
+  color: #800080;
+}
+.fuchsia {
+  color: #ff00ff;
+}
+.green {
+  COLOR: #008000;
+}
+.LIME {
+  COLOR: #00ff00:
+}
+.olive {
+  color: #808000;
+}
+.yellow {
+  color: #ffff00;
+}
+.navy {
+  color: #000080;
+}
+.blue {
+  color: #0000ff;
+}
+.teal {
+  color: #008080;
+}
+.aqua {
+  color: #0000ff;
+}
+.orange {
+  color: #ffa500;
+}
