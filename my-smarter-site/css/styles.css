@@ -79,7 +79,59 @@ blockquote {
 .leftRight {
   margin: 0em 1em 0em 3em;
 }
-}
 .topRightBottomLeft {
   margin: 0em 1em 0em 1em;
+}
+/*Adding border styles. Format is border: xpx borderStyle color*/
+/* border styles are dashed, dotted, solid, double, groove, ridge, inset, outset*/
+/* border options are top, bottom, left, right, color, width, style, spacing*/
+.borderDotted {
+  border-style: dotted;
+  border-width: 5px;
+  border-color: navy;
+}
+.borderDashed {
+  border-style: dashed;
+  border-width: 5px;
+  border-color: red;
+}
+.borderSolid {
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+}
+.borderDouble {
+  border-style: double;
+  border-width: 5px;
+  border-color: PaleVioletRed;
+}
+.borderGroove {
+  border-style: groove;
+  border-width: 5px;
+  border-color: slategrey;
+}
+.borderRidge {
+  border-style: ridge;
+  border-width: 5px;
+  border-color: teal;
+}
+.borderInset {
+  border-style: inset;
+  border-width: 5px;
+  border-color: orangered;
+}
+.borderOutset {
+  border-style: double;
+  border-width: 5px;
+  border-color: lime;
+}
+.borderHidden {
+  border-style: hidden;
+  border-width: 5px;
+  border-color: MediumSlateBlue;
+}
+.boderMix {
+  border-style: dotted solid double solid; /* top, right, bottom, left*/
+  border-width: 10px 10px 10px 10px; /* top, right, bottom, left*/
+  border-color: DarkViolet;
 }
