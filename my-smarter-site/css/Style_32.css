@@ -1,0 +1,39 @@
+  /*Adding classes to change font styles, colors and weights in header and paragraphs.*/
+  h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 1em 1em 1em;
+    color: darkblue;
+    }
+  h2, h4, h5, h6 {
+      font-family:Arial, Helvetica, sans-serif;
+      margin: 0 1em 0 1.5em;
+      color: blue;
+      }
+  /*Here I am displaying text-align properties.*/
+  h3 {
+      background-color: lightblue;
+      color: black;
+      margin: 0 1.5em 0 1.5em;
+      padding: 2px,2px,2px,2px;
+      text-align: left;
+  }
+  .ti {
+    text-indent: 1em;
+    margin-left: 2em;
+  }
+  .dateStyle {
+    text-align: right;
+    color: darkblue;
+    font-size: 1.5em;
+  }
+p {
+  text-indent: 1em;
+  margin-left: 2em;
+}
+blockquote {
+  color: darkslategrey;
+}
+p.largeFont {
+ font-size: 2.0em;
+ color: #FF1493;
+}
