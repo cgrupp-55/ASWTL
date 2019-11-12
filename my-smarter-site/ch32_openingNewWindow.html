@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>openWindow</title>
+    <link rel="stylesheet" type="text/css" href="css/styles_32.css">
+  </head>
+  <body>
+    <h1>Opening A New Window</h1>
+      <p>This is text that demoinstrates how to allow a user to use a link on your page to access content on another site without their leaving your web page. Instead, the new site's web page is opened in a separate window. Let's see how well this works.</p>
+      <p>Go to CommandResults.com, select this link here. Go to Command Results <a href="http://www.commandresults.com" target="_blank">here</a>.</p>
+    <h2>Opening and closing a small windown with JavaScript</h2>
+      <p>This bit of code allows the user to open and close a small window to the Command Results Website using Buttons.
+    <button onclick="openWin()">Open "myWindow"</button>
+    <button onclick="closeWin()">Close "myWindow"</button>
+
+    <script>
+    var myWindow;
+
+    function openWin() {
+      myWindow = window.open("http://www.commandresults.com", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
+      <!--myWindow.document.write("<p>This is 'myWindow'</p>");-->
+    }
+
+    function closeWin() {
+      myWindow.close();
+    }
+    </script>
+  </body>
+</html>
