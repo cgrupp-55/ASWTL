@@ -1,0 +1,326 @@
+body {
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: green;
+  font-size: 1.2em;
+  text-align: left;
+  /*margin: 0em 1em 0em 1em; sets top right bottom left margins*/
+}
+blockquote {
+  display: block;
+  /*Note:color: purple;  If set, this color wil overwrite the color specified in the Body element.*/
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+h1#mission-statement {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  color: darkblue;
+}
+h2#product-features {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: blue;
+}
+#specialID {
+  font-size: 1.5em;
+  font-style: italic;
+}
+div#header {}
+div#navBar {}
+div#main  {
+  font-size: 1.1em;
+  color: DarkCyan;
+  margin: .1em .2 em .2 em .2em
+}
+div#footer {}
+  /*Add header formating styles in HTML files with custom css classes*/
+h1, h3, h5 {
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  }
+  h1, h5 {
+    color:#228B22;
+  }
+  h4 {
+    text-align: center;
+    color:#C71585;
+  }
+  h3 {
+    color:#B22222;
+  }
+  /*Add text formating styles in HTML files with custom css classes*/
+p.important {
+  font-size:1.5em;
+  font-weight: 900;word-spacing:1em;
+}
+.block {
+  display: block;
+}
+.insertBlockMargin {
+  display: block; /*allows an image element to be displayed in block format instead on inline*/
+  margin-left: 2em; /*Indents the margin for the image out be the whateber em value is specified. Note that em is a relative value that adjusts the default browser values by wahtever value is specified. So, 1em is 100% of the browser's default pixel value.*/
+}
+.setCenteredMarginsBlock {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.setLeftMarginBlock {
+  display: block;
+  margin-left: inherit;
+  margin-right: auto;
+  width: 50%;
+}
+.setLeftMargin {
+  margin-left: 2em;
+}
+.setRightMargin {
+  margin-right: 2em;
+}
+.setTopMargin {
+  margin-top: 2em;
+}
+.setBottomMargin {
+  margin-bottom: 2em;
+}
+.setMarginsSingleValue {
+  margin: 35px; /*sets all margins to the signle stated value*/
+}
+.setCenterMargins {
+  margin: auto auto;
+}
+.setTopSidesBottomMargins {
+  margin: 10px 5px 15px; /*uses three values to set top, sides and bottom margins to the stated values*/
+}
+.setAllMargins {
+  margin: 50px 50px 50px 50px; /*sets all margins (top, right, bottom, left) individually to the stated values*/
+}
+.setImageMargin {
+  margin: 25px 50px 25px 75px; /*sets all margins (top, right, bottom, left) individually to the stated values*/
+}
+.maxWidth{
+  max-width: 600px; /*prevents the display width from exceeding the stated value when resizing windows, and allows compression of the display on small windows, such as mobile or resiziong a window to a smaller size.*/
+}
+.centeredWidth {
+  width: 600px; /*Setting the width of a block-level element will prevent it from stretching out to the edges of its container to the left and right.*/
+  margin: 0 auto; /*set the left and right margins to auto to horizontally center that element within its container.*/
+}
+/*Working with images*/
+img.wrapLeft {
+  float: left; /*Any text that follws this image with this class will wrap around the image on the right.*/
+  margin: 0 .75em .5em 0;
+}
+img.wrapRight {
+  float: right; /*Any text that follws this image with this class will wrap around the image on the left.*/
+  margin: 0 .75em .5em 0;
+}
+p.noWrap {
+  clear: both; /*Don't wrap anything else from here forewaerd.*/
+}
+img.centerImage {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+/*Set useful Serif font-families*/
+.serifGeorgia {
+  font-family: Georgia, serif;
+}
+.serifPalatino {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.SerifTimes {
+  font-family: "Times New Roman", Times, serif;
+}
+/*Set useful Sans-Serif font-families*/
+.Sans-SerifArial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Sans-Serif {
+  font-family: ;
+}
+.Sans-SerifArialBlack {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.Sans-SerifComic {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.Sans-SerifTahoma {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.Sans-SerifTrebuchet {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.Sans-SerifVerdana {
+  font-family: Verdana, Geneva, sans-serif;
+}
+/*Set useful Monospace font-families*/
+.MonospaceLucida {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.typewriter {
+  font-family: "Courier New", Courier, monospace;
+}
+/*Set useful Google Script font-families*/
+.PetitFormalScript {
+  font-family: 'Petit Formal Script', 'Brush Script MT', cursive;
+}
+.PinyonScript {
+  font-family: 'Pinyon Script', 'Brush Script MT', cursive;
+}
+.theGirlNextDoor {
+  font-family: 'The Girl Next Door', 'Brush Script MT', cursive;
+}
+/*Set useful color styles*/
+.black {
+  color: #000000;
+}
+.grey {
+  color: #808080;
+}
+.silver {
+  color: #c0c0c0;
+}
+.white {
+  color: #ffffff;
+}
+.maroon {
+  color: #800000;
+}
+.red {
+  color: #ff0000;
+}
+.purple {
+  color: #800080;
+}
+.fuchsia {
+  color: #ff00ff;
+}
+.green {
+  COLOR: #008000;
+}
+.LIME {
+  COLOR: #00ff00:
+}
+.olive {
+  color: #808000;
+}
+.yellow {
+  color: #ffff00;
+}
+.navy {
+  color: #000080;
+}
+.blue {
+  color: #0000ff;
+}
+.teal {
+  color: #008080;
+}
+.aqua {
+  color: #0000ff;
+}
+.orange {
+  color: #ffa500;
+}
+/*Set useful font styles*/
+.normal {
+  font-style: normal; /*Selects a font that is classified as normal within a font-family.*/
+}
+.oblique {
+  font-style: oblique; /*Selects a font that is classified as oblique. If no oblique version of the face is available, one classified as italic is used instead. If neither is available, the style is artificially simulated.*/
+}
+.italics {
+  font-style: italic; /*Selects a font that is classified as italic. If no italic version of the face is available, one classified as oblique is used instead. If neither is available, the style is artificially simulated.*/
+}
+.emphasized {
+  font-size: 1.5em;
+  font-style:italic;
+  font-weight: 600;
+  text-align: left;
+}
+/*Add color classes*/
+.standoutColor{
+  color:#483D8B;
+}
+/*Add date format and style*/
+.dateStyle {
+  text-align: right;
+  color: #00FF00;
+  font-size: 1.5em;
+}
+/*Adding border styles. Format is border: xpx borderStyle color*/
+/* border styles are dashed, dotted, solid, double, groove, ridge, inset, outset*/
+/* border options are top, bottom, left, right, color, width, style, spacing*/
+.borderDotted {
+  border-style: dotted;
+  border-width: 5px;
+  border-color: navy;
+}
+.borderDashed {
+  border-style: dashed;
+  border-width: 5px;
+  border-color: red;
+}
+.borderSolid {
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+}
+.borderDouble {
+  border-style: double;
+  border-width: 5px;
+  border-color: PaleVioletRed;
+}
+.borderGroove {
+  border-style: groove;
+  border-width: 5px;
+  border-color: slategrey;
+}
+.borderRidge {
+  border-style: ridge;
+  border-width: 5px;
+  border-color: teal;
+}
+.borderInset {
+  border-style: inset;
+  border-width: 5px;
+  border-color: orangered;
+}
+.borderOutset {
+  border-style: double;
+  border-width: 5px;
+  border-color: lime;
+}
+.borderHidden {
+  border-style: hidden;
+  border-width: 5px;
+  border-color: MediumSlateBlue;
+}
+.boderMix {
+  border-style: dotted solid double solid; /* top, right, bottom, left*/
+  border-width: 10px 10px 10px 10px; /* top, right, bottom, left*/
+  border-color: DarkViolet;
+}
+.padding {
+  padding: 1em 1em 1em 1em;
+}
+.topPadding {
+  padding-top: .1em;
+}
+.rightPadding {
+  padding-right: .2em;
+}
+.bottonPadding {
+  padding-bottom: .#em;
+}
+.leftPadding {
+  padding-left: .4em;
+}
